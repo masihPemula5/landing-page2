@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -521,6 +521,9 @@ a:hover {
 
 /* From Uiverse.io by Cevorob */
 @media (min-width: 350px) and (max-width: 780px) {
+  *{
+    overflow-x: hidden;
+  }
   .navbar {
     position: relative;
   }
