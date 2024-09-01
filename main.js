@@ -58,7 +58,7 @@ function out(){
             text: "Anda telah keluar.",
             icon: "success"
           }).then(() => {
-            window.location.href = "http://127.0.0.1:5500/index.html";
+            window.location.href = "index.html";
           });
         } else if (
           /* Read more about handling dismissals below */
