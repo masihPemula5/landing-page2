@@ -521,6 +521,9 @@ a:hover {
 
 /* From Uiverse.io by Cevorob */
 @media (min-width: 350px) and (max-width: 780px) {
+  body{
+    overflow-x:hidden;
+  }
   .navbar {
     position: relative;
   }
