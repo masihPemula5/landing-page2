@@ -34,7 +34,7 @@ function showRegisterForm() {
 function klik1(){
     let user = document.getElementById("user").value
     if(user === "ADMIN"){
-       window.open("http://127.0.0.1:5500/page/page1.html")
+       window.open("http://127.0.0.1:5500/page1.html")
        
     }else if (user === ""){
        alert("Eiits isi dulu")
